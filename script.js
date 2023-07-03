@@ -14,17 +14,25 @@ function input(num){
 }
 
 // funcion para pasar de grados centigrados a Fahrenheit
-function Grados(){
+function Temperatura(){
     let number = result.value;
     let resultado=(number*9/5)+32;
     result.value = resultado;
     }
 
-// funcion para la presion pasar de Pascal a Var
-function Pascal(){
+// funcion para la presion pasar de Pascal a Bar
+function Presion(){
 
     let number = result.value;
     let resultado=(number/100000);
+    result.value = resultado;
+    }
+
+// Funcionalidad Masa, pasar de Kilos a Gramos. 
+function Masa(){
+
+    let number = result.value;
+    let resultado=(number*1000);
     result.value = resultado;
     }
 
