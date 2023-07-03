@@ -13,6 +13,14 @@ function input(num){
     result.value = number + num;
 }
 
+// funcion para pasar de grados centigrados a Fahrenheit
+function Grados(){
+
+    let number = result.value;
+    let resultado=(number*9/5)+32;
+    result.value = resultado;
+    }
+
 // Calculator logic
 function calc(){
     if(result.value != ""){
