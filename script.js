@@ -15,11 +15,20 @@ function input(num){
 
 // funcion para pasar de grados centigrados a Fahrenheit
 function Grados(){
-
     let number = result.value;
     let resultado=(number*9/5)+32;
     result.value = resultado;
     }
+
+// funcion para la presion pasar de Pascal a Var
+function Pascal(){
+
+    let number = result.value;
+    let resultado=(number/100000);
+    result.value = resultado;
+    }
+
+
 
 // Calculator logic
 function calc(){
