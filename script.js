@@ -13,6 +13,39 @@ function input(num){
     result.value = number + num;
 }
 
+// funcionalidad Temperatura para pasar de grados centigrados a Fahrenheit
+function Temperatura(){
+    let number = result.value;
+    let resultado=(number*9/5)+32;
+    result.value = resultado;
+    }
+
+// funcionalidad Presion pasar de Pascal a Bar
+function Presion(){
+
+    let number = result.value;
+    let resultado=(number/100000);
+    result.value = resultado;
+    }
+
+// Funcionalidad Masa, pasar de Kilos a Gramos. 
+function Masa(){
+
+    let number = result.value;
+    let resultado=(number*1000);
+    result.value = resultado;
+    }
+
+// Funcionalidad Longitud, pasar de Metros a Centímetros.  
+
+  function Longitud(){
+
+    let number = result.value;
+    let resultado=(number*100);
+    result.value = resultado;
+    }
+
+
 // Calculator logic
 function calc(){
     if(result.value != ""){
