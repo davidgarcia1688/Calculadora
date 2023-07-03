@@ -36,6 +36,17 @@ function Masa(){
     result.value = resultado;
     }
 
+// Funcionalidad Longitud, pasar de Metros a Centímetros.  
+
+  function Longitud(){
+
+    let number = result.value;
+    let resultado=(number*100);
+    result.value = resultado;
+    }
+
+
+
 
 
 // Calculator logic
