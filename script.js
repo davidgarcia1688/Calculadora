@@ -13,14 +13,14 @@ function input(num){
     result.value = number + num;
 }
 
-// funcion para pasar de grados centigrados a Fahrenheit
+// funcionalidad Temperatura para pasar de grados centigrados a Fahrenheit
 function Temperatura(){
     let number = result.value;
     let resultado=(number*9/5)+32;
     result.value = resultado;
     }
 
-// funcion para la presion pasar de Pascal a Bar
+// funcionalidad Presion pasar de Pascal a Bar
 function Presion(){
 
     let number = result.value;
@@ -44,9 +44,6 @@ function Masa(){
     let resultado=(number*100);
     result.value = resultado;
     }
-
-
-
 
 
 // Calculator logic
